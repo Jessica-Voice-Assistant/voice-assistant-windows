@@ -1,0 +1,47 @@
+
+if (annyang) {
+  // Let's define a command.
+  const commands = {
+    'jessica': () => { ast(2); }
+  };
+
+  // Add our commands to annyang
+  annyang.addCommands(commands);
+
+  // Start listening.
+  annyang.start();
+}
+eel.expose(ast); // Expose this function to Python
+function colou(astut, msg) {
+  document.getElementById("appstatus").className = `${astut}`;
+  document.getElementById("appstatus-msg").innerText = `${msg}`
+}
+function ast(x) {
+  console.log("Choosen " + x);
+  switch (x) {
+    case 0:
+      astut = 'appstatus'; msg = "Not running '_'";
+      colou(astut, msg);
+      break;
+    case 1:
+      astut = 'appstatus ready'; msg = "Say Jessica to start :)";
+      colou(astut, msg);
+      break;
+    case 2:
+      astut = 'appstatus listening'; msg = "Listening...";
+      colou(astut, msg);
+      break
+    case 3:
+      astut = 'appstatus confusion'; msg = "Try Again! :(";
+      colou(astut, msg);
+      break;
+    case 4:
+      astut = 'appstatus error'; msg = "Error ! '-'";
+      colou(astut, msg);      break;
+    case 5:
+      astut = 'appstatus offline'; msg = "No internet ;(";
+      colou(astut, msg);    
+      break;
+  }
+}
+page 52 9/5
