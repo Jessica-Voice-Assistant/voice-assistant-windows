@@ -7,7 +7,6 @@ import pyttsx3
 import pygetwindow as pw
 from .user_skills import *
 from .default_skills import *
-import keyboard
 import os
 import ctypes
 import webbrowser
