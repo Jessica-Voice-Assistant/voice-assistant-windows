@@ -94,10 +94,10 @@ try:
             rsuccess3()
         elif 'settings' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\settings')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\settings')
         elif 'browser' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\edge')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\edge')
         elif 'google classroom' in given_text:
             rsuccess4()
             webbrowser.open_new('https://classroom.google.com/h')
@@ -113,7 +113,7 @@ try:
             webbrowser.open_new_tab('https://www.google.com/maps/place/Bengaluru,+Karnataka/&amp')
         elif 'weather' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\weather')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\weather')
         elif 'pedia' in given_text:
             rsuccess1()
             speakengine.say('Opening wikipedia!')
@@ -126,85 +126,85 @@ try:
             webbrowser.open_new("https://www.youtube.com/watch?v=jl9xKw_xEas")
         elif 'computer'in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\computer')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\computer')
         elif 'control panel' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\controlpanel')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\controlpanel')
         elif 'open antivirus' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\security')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\security')
         elif 'clock' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\clock')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\clock')
         elif 'gmail' in given_text:
             rsuccess4()
             webbrowser.open('https://gmail.com')
         elif 'outlook' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\mail')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\mail')
         elif 'chrome' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\chrome')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\chrome')
         elif 'spotify' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\spotify')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\spotify')
         elif 'open code' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\vscode')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\vscode')
         elif 'amazon prime' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\primevideo')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\primevideo')
         elif 'asphalt' in given_text:
             rsuccess4()    
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\asphalt')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\asphalt')
         elif 'open calculator' in given_text:
             rsuccess4()  
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\calculator')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\calculator')
         elif 'open calendar' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\calendar')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\calendar')
         elif 'open camera' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\camera')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\camera')
         elif 'open webex' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\webex')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\webex')
         elif 'open command' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\cmd')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\cmd')
         elif 'open dropbox' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\dropbox')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\dropbox')
         elif 'open download' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\download')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\download')
         elif 'open python' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\python')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\python')
         elif 'open to do' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\todo')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\todo')
         elif 'open notepad' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\notepad')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\notepad')
         elif 'open office' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\office')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\office')
         elif 'open onedrive' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\onedrive')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\onedrive')
         elif 'open photos' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\photos')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\photos')
         elif 'open paint' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\paint')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\paint')
         elif 'open zoom' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\zoom')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\zoom')
         elif 'open whatsapp' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\whatsapp')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\whatsapp')
         elif 'open youtube' in given_text:
             rsuccess4()
             webbrowser.open_new('https://youtube.com')
@@ -219,13 +219,13 @@ try:
             pyautogui.press('sleep')
         elif 'windows updates' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\settings')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\settings')
             updateSkill()
             speakengine.say("Checking for latest updates from windows..")
             speakengine.runAndWait()
         elif 'quick scan' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\security')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\security')
             securitySkill()
             speakengine.say("Scanning for virus and potential threats using windows security.. The task will run in the background..")
             speakengine.runAndWait()
@@ -286,6 +286,7 @@ try:
         # And the skills must end with rsuccess(2) or rsuccess(3) else you will have a bad time :)
         elif 'meeting' in given_text:
             try:
+                error_meeting = None
                 if 'english' in given_text:
                     rsuccess1()
                     meetingInit(1)
@@ -323,6 +324,7 @@ try:
             frontend_engine.minimize()
         elif 'coaching' in given_text:
             try:
+                error_meeting = 1
                 if 'chem' in given_text:
                     rsuccess1()
                     meetingInit(11)
@@ -366,7 +368,7 @@ try:
             rsuccess3()
         elif 'favourite song' in given_text:
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\spotify')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\spotify')
             spotifySkill()
             speakengine.say('Playing your favourite songs on spotify..')
             speakengine.runAndWait()
@@ -386,7 +388,7 @@ try:
             speakengine.say('I would love to play piano tiles just if I make any error be sure to press q on your keyboard')
             speakengine.runAndWait()
             rsuccess4()
-            os.startfile(r'C:\Users\abhid\Desktop\Voice Assistant\skills_engine\default_skills\shortcuts\piano')
+            os.startfile(r'D:\Voice Assistant\skills_engine\default_skills\shortcuts\piano')
             playpianotiles()
             speakengine.say("I hope you liked it !!")
             speakengine.runAndWait()
