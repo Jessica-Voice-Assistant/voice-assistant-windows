@@ -1,5 +1,5 @@
-# voice-assistant-windows
-Jessica is an open-source DIY voice assistant for windows like cortana built on python and uses Chrome for rendering and voice recognition using web speech API. This voice assistant has no limits and provides 360 degree customization for the whole code and behaviours. 
+# Voice Assistant Windows
+Jessica is an open-source DIY voice assistant for windows like cortana built using python and uses Chrome for rendering and voice recognition using web speech API. This voice assistant has no limits and provides 360 degree customization for the whole code and behaviours. 
 
 Thanks to the following open-source python packages and javascript libraries :)
 https://github.com/asweigart/PyGetWindow
