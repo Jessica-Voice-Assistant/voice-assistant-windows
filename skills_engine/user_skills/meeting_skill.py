@@ -4,14 +4,14 @@ pyautogui.FAILSAFE = True
 id= None
 passKey= None
 def meetingInit(choice):
-    English = 'https://meetingsapac6.webex.com/meet/vandna.garg1967'
-    ComputerS = '571920506'
-    Physics = '576548320'
-    Chem = '1568431990'
-    Maths = 'https://meetingsapac31.webex.com/join/pr1568459044'
-    PhysicsT = '402 309 8011'
-    ChemT = '967 542 3876'
-    MathsT = '925 102 4787'
+    English = 'your  meeting id'
+    ComputerS = ''
+    Physics = ''
+    Chem = ''
+    Maths = ''
+    PhysicsT = ''
+    ChemT = ''
+    MathsT = ''
     if choice == 11:
         id= ChemT
         pyautogui.hotkey('win', 'd')
